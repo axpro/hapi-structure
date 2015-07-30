@@ -17,9 +17,9 @@ We will explain all phases of the project integration, configuration and librari
 You must clone the project:
 
 ```javascript
-cd /path/to/workspace
+$ cd /path/to/workspace
 
-git clone git@github.com:njl07/hapi-structure.git
+$ git clone git@github.com:njl07/hapi-structure.git
 ```
 
 After that the project structure will be in your worskpace. 
@@ -44,21 +44,21 @@ When the structure is OK for you, you must install all dependencies.
 For this part, you must install `npm` and `bower` packages:
   
 ```javascript
-cd /path/to/workspace/hapi-structure
+$ cd /path/to/workspace/hapi-structure
 
-npm install && bower install
+$ npm install && bower install
 ```
 
 Folders `node_modules` and `bower_components` will be created.
 
 ### Server application
 
-For this part, you must install `npm` packages:
+For this part, you must only install `npm` packages:
   
 ```javascript
-cd /path/to/workspace/hapi-structure
+$ cd /path/to/workspace/hapi-structure
 
-npm install
+$ npm install
 ```
 
 Folder `node_modules` will be created.
