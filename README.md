@@ -6,6 +6,8 @@ This project describes the structure of an [Hapi.js](http://www.hapijs.com) serv
 
 We will explain all phases of the project integration, configuration and libraries used, scripts for the continued development and packaging of the production application.
 
+When I have some interesting features to offer, I will include them in this project to involve you.
+
 ### Contents
 
 * [Installation](#installation)
@@ -26,7 +28,7 @@ After that the project structure will be in your worskpace.
 
 Project contains `client` and `server` elements. 
 
-If you want only use the `sever` side of the project, the following files and folders will be useless:
+If you want **only** use the `sever` side of the project, the following files and folders will be useless:
 
 * `./client`
 * `./config/../design.json`
@@ -35,7 +37,7 @@ If you want only use the `sever` side of the project, the following files and fo
 * `./lib/design`
 * `./lib/hello/../world`
 
-These files contain all the elements for the result of the HTML display.
+These files contain all the elements for HTML display.
 
 When the structure is OK for you, you must install all dependencies.
 
