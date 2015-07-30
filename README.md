@@ -17,7 +17,7 @@ You must checkout the project:
 ```javascript
 cd /path/to/workspace;
 
-git checkout git@github.com:njl07/hapi-structure.git
+git clone git@github.com:njl07/hapi-structure.git
 ```
 
 After that the project structure will be in your worskpace. 
@@ -27,8 +27,14 @@ Project contains `client` and `server` elements.
 If you want only use the `sever` side of the project, the following files and folders will be useless:
 
 > ./client
-> ./config/**/design.json => ./index.js should be override to delete reference in 'internals.configs' variable, the same in './config/plugin.json'
+>
+> ./config/\*\*/design.json
+>
+> * ./index.js should be override to delete reference in 'internals.configs' variable
+> * the same in './config/plugin.json'
+>
 > ./lib/design
+>
 > ./lib/hello/**/world
 
 
