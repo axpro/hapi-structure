@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@192.168.11.27:njessel/hapi-structure.git"
+    "url": "git@github.com:njl07/hapi-structure.git"
   },
   "description": "Hapi.js Project Structure and Implementation",
   "keywords": [
