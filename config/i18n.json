@@ -1,0 +1,6 @@
+{
+  "locale_path": "translations",
+  "cookie_name": "hapi-i18n",
+  "default_language": "EN",
+  "available_languages": ["EN"]
+}

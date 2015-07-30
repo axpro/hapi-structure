@@ -1,0 +1,38 @@
+{
+  "name": "hapi-structure",
+  "version": "0.1.0",
+  "author": {
+    "name": "Nicolas Jessel",
+    "email": "nicolas.jessel@intech.lu"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@192.168.11.27:njessel/hapi-structure.git"
+  },
+  "description": "Hapi.js Project Structure and Implementation",
+  "keywords": [
+    "Hapi.js",
+    "Structure",
+    "API",
+    "Views",
+    "Design"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "modernizr": "~2.8.3",
+    "bootstrap-sass-official": "~3.3.5"
+  },
+  "overrides":{
+    "bootstrap-sass-official": {
+      "main": [
+        "assets/stylesheets/_bootstrap.scss",
+        "assets/javascripts/bootstrap.js",
+        "assets/fonts/bootstrap/glyphicons-halflings-regular.eot",
+        "assets/fonts/bootstrap/glyphicons-halflings-regular.svg",
+        "assets/fonts/bootstrap/glyphicons-halflings-regular.ttf",
+        "assets/fonts/bootstrap/glyphicons-halflings-regular.woff",
+        "assets/fonts/bootstrap/glyphicons-halflings-regular.woff2"
+      ]
+    }
+  }
+}

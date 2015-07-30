@@ -1,0 +1,7 @@
+{
+  "apiPath": "/",
+  "apiVersion": "v1",
+  "endPoints":{
+    "home": "/hello/world"
+  }
+}

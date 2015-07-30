@@ -1,0 +1,4 @@
+{
+  "overrideDirnameForPlugins": ["i18n", "design"],
+  "pluginsWithoutPrefix": ["i18n", "design"]
+}

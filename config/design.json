@@ -1,0 +1,15 @@
+{
+  "stylesPath": "client/styles",
+  "scriptsPath": "client/scripts",
+  "fontsPath": "client/fonts",
+  "assetsPath": "client/assets",
+  "viewsPath": "client/views",
+  "layoutPath": "client/views/layout",
+  "partialsPath": "client/views/partials",
+  "faviconPath": "client/assets/images/favicon.ico",
+  "defaultContext": {
+    "title": "HEAD_TITLE",
+    "description": "HEAD_DESCRIPTION",
+    "lang": "LANG"
+  }
+}
