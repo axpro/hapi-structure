@@ -9,13 +9,15 @@ We will explain all phases of the project integration, configuration and librari
 ### Contents
 
 * [Installation](#installation)
+    [Client/Server application](#client-server-application)
+    [Server application](#server-application)
 
 ## Installation
 
-You must checkout the project:
+You must clone the project:
 
 ```javascript
-cd /path/to/workspace;
+cd /path/to/workspace
 
 git clone git@github.com:njl07/hapi-structure.git
 ```
@@ -34,6 +36,32 @@ If you want only use the `sever` side of the project, the following files and fo
 * `./lib/hello/../world`
 
 These files contain all the elements for the result of the HTML display.
+
+When the structure is OK for you, you must install all dependencies.
+
+### Client/Server application
+
+For this part, you must install `npm` and `bower` packages:
+  
+```javascript
+cd /path/to/workspace/hapi-structure
+
+npm install && bower install
+```
+
+Folders `node_modules` and `bower_components` will be created.
+
+### Server application
+
+For this part, you must install `npm` packages:
+  
+```javascript
+cd /path/to/workspace/hapi-structure
+
+npm install
+```
+
+Folder `node_modules` will be created.
 
 ## Release History
 
