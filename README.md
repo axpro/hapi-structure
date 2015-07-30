@@ -8,6 +8,8 @@ We will explain all phases of the project integration, configuration and librari
 
 When I have some interesting features to offer, I will include them in this project to involve you.
 
+Feel free to give me your opinion and let me share integration ideas to grow the project and will make everybody **Hapi**.
+
 ### Contents
 
 * [Installation](#installation)
