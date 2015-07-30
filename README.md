@@ -26,12 +26,12 @@ Project contains `client` and `server` elements.
 
 If you want only use the `sever` side of the project, the following files and folders will be useless:
 
-* ./client
-* ./config/../design.json
-    * ./index.js should be override to delete reference in `internals.configs` variable
+* `./client`
+* `./config/../design.json`
+    * `./index.js` should be override to delete reference in `internals.configs` variable
     * the same in `./config/plugin.json`
-* ./lib/design
-* ./lib/hello/../world
+* `./lib/design`
+* `./lib/hello/../world`
 
 These files contain all the elements for the result of the HTML display.
 
