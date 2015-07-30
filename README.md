@@ -1,8 +1,8 @@
 <img src="https://raw.github.com/hapijs/hapi/master/images/hapi.png" />
 
-# Hapi.js Project Structure and Implementation
+## Hapi.js Project Structure and Implementation
 
-## Release History
+### Release History
 
 | Version    | Notes       |
 |:-----------|:------------|
@@ -16,5 +16,5 @@
 | 0.1.0      | Project structure |
 | 0.0.1      | First Prototype |
 
-## License
+### License
 Copyright (c) 2015 Nicolas Jessel. Licensed under the [MIT license](https://github.com/njl07/hapi-structure/blob/master/LICENSE.md).
