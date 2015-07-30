@@ -9,8 +9,8 @@ We will explain all phases of the project integration, configuration and librari
 ### Contents
 
 * [Installation](#installation)
-    [Client/Server application](#client-server-application)
-    [Server application](#server-application)
+    * [Client/Server application](#client-server-application)
+    * [Server application](#server-application)
 
 ## Installation
 
