@@ -253,21 +253,33 @@ Simple **test utility** for node.
 * `translations` folder contains languages files. **One language** for **one file**.
 * `test` folder contains all scripts to **test application**.
 * `lib` folder contains all custom plugins with 2 required:
-    * `design` folder is the plugin to display client contents in the browser. (if `client` folder doesn't exist, plugin can be **deleted**)
+    * `design` folder is the plugin to display **client contents** in the browser. (if `client` folder doesn't exist, plugin can be **deleted**)
     * `i18n` folder is the plugin to manage **i18n** data.
 * `gulp` folder contains all scripts to **automate** and **enhance** the workflow. `gulpfile.js` is **required** to launch these scripts.
 * `config` folder contains all **configuration files** for all **environment**.
-    * `api.json` => configuration of the **server**
+    * `api.json` => configuration for the **server**
     * `design.json` => configuration for the **client**
     * `i18n.json` => configuration for **translations**
     * `plugin.json` => configuration for custom **plugins**
     * `route.json` => configuration for **API** routes
     * `good.js` => configuration for **logging**
 
+
+To display the result of an **API** call, follow these steps:   
+
+* Launch server
+
+```javascript
+$ cd /path/to/workspace/hapi-structure
+
+$ gulp or gulp:api-application 
+```
+
 ## TODO
 
 * Write Tests with [Lab](https://github.com/hapijs/lab) and [Code](https://github.com/hapijs/code).
 * Update layout with [bootstrap](http://getbootstrap.com) to show example.
+* Create HTML pages to display custom content when error occurred (`400`, `404`, `500`, ...)
 
 ## Release History
 
