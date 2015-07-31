@@ -53,6 +53,8 @@ Feel free to give me your opinion and let me share integration ideas to grow the
 * [Test Libraries](#test-libraries)
     * [Lab](#lab)
     * [Code](#code)
+* [Server details](#server-details)
+* [TODO](#todo)
 * [Release History](#release-history)
 * [License](#license)
 
@@ -244,6 +246,28 @@ Simple **test utility** for node.
 ### Code
 
 [BDD](https://github.com/hapijs/code) assertion library.
+
+## Server details
+
+* The **main application** file is `index.js`. It registers all **plugins** and **libraries** and launches [Hapi.js](http://www.hapijs.com) **server**.
+* `translations` folder contains languages files. **One language** for **one file**.
+* `test` folder contains all scripts to **test application**.
+* `lib` folder contains all custom plugins with 2 required:
+    * `design` folder is the plugin to display client contents in the browser. (if `client` folder doesn't exist, plugin can be **deleted**)
+    * `i18n` folder is the plugin to manage **i18n** data.
+* `gulp` folder contains all scripts to **automate** and **enhance** the workflow. `gulpfile.js` is **required** to launch these scripts.
+* `config` folder contains all **configuration files** for all **environment**.
+    * `api.json` => configuration of the **server**
+    * `design.json` => configuration for the **client**
+    * `i18n.json` => configuration for **translations**
+    * `plugin.json` => configuration for custom **plugins**
+    * `route.json` => configuration for **API** routes
+    * `good.js` => configuration for **logging**
+
+## TODO
+
+* Write Tests with [Lab](https://github.com/hapijs/lab) and [Code](https://github.com/hapijs/code).
+* Update layout with [bootstrap](http://getbootstrap.com) to show example.
 
 ## Release History
 
