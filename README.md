@@ -173,6 +173,22 @@ A rich **framework** for building **applications** and **services**.
 
 **Automate** and **enhance** your workflow.
 
+### Boom
+
+<a href="https://github.com/hapijs/boom" title="boom">
+    <img height="32" width="100" src="https://raw.github.com/hapijs/boom/master/images/boom.png">
+</a>
+
+Provides a set of **utilities** for returning **HTTP errors**.
+
+### Good
+
+<a href="https://github.com/hapijs/good" title="good">
+    <img height="43" width="100" src="https://raw.github.com/hapijs/good/master/images/good.png">
+</a>
+
+[Hapi.js](http://www.hapijs.com) process **monitoring**.
+
 ## Release History
 
 | Version    | Notes       |
