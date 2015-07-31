@@ -1,4 +1,5 @@
-<img src="https://raw.github.com/hapijs/hapi/master/images/hapi.png" />
+<img src="https://raw.github.com/hapijs/hapi/master/images/hapi.png" width="100" height="70"/>
+<img height="70" width="31" src="https://raw.githubusercontent.com/gulpjs/artwork/master/gulp-2x.png" style="margin-left:10px">
 
 ## Hapi.js Project Structure and Implementation
 
@@ -102,7 +103,7 @@ When you launch the project in **server** method, browser will **not** be launch
 
 If you update anything in your server (`api`, `configuration`, ...), `API` will be **reloaded** but change will **not be displayed** in your browser.
  
-If client parts are in your project, you can displayed `HTML` content in your browser but if changes are made, you must **reload manually** the page to display updates.
+If client parts are in your project, you can displayed `HTML` contents in your browser but if changes are made, you must **reload manually** the page to display updates.
 
 ## Release History
 
