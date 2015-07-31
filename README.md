@@ -1,10 +1,4 @@
-<style>
-#logos{
-border-spacing: 0;
-border-color:none;
-}
-</style>
-<table id="logos" border="0" cellspacing="0" cellpadding="0">
+<table border="0" cellspacing="0" cellpadding="0">
     <tr>
         <td width="120" align="center">
             <a href="http://www.hapijs.com" title="hapi.js">
