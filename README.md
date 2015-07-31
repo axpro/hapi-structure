@@ -48,6 +48,11 @@ Feel free to give me your opinion and let me share integration ideas to grow the
     * [Hoek](#hoek)
     * [Joi](#joi)
     * [Handlebars](#handlebars)
+    * [Node Config Manager](#node-config-manager)
+    * [Hapi Basic i18n](#hapi-basic-i18n)
+* [Test Libraries](#test-libraries)
+    * [Lab](#lab)
+    * [Code](#code)
 * [Release History](#release-history)
 * [License](#license)
 
@@ -221,6 +226,24 @@ Provides the power necessary to let you build **semantic templates** effectively
 ### Node Config Manager
 
 A [configuration manager](https://github.com/Valko54/node-config-manager) for NodeJS. It helps you to organize your project and the different **configurations** of your **environments**.
+
+### Hapi Basic i18n
+
+[Translations](https://github.com/ubaltaci/hapi-basic-i18n) management for [Hapi.js](http://www.hapijs.com)
+
+## Test Libraries
+
+### Lab
+
+<a href="https://github.com/hapijs/lab" title="lab">
+    <img height="63" width="100" src="https://raw.github.com/hapijs/lab/master/images/lab.png">
+</a>
+
+Simple **test utility** for node.
+
+### Code
+
+[BDD](https://github.com/hapijs/code) assertion library.
 
 ## Release History
 
