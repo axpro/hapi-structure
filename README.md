@@ -42,7 +42,12 @@ Feel free to give me your opinion and let me share integration ideas to grow the
     * [Modernizr](#modernizr)
 * [Server Libraries](#server-libraries)
     * [Hapi](#hapi)
-    * [gulp](#gulp)
+    * [Gulp](#gulp)
+    * [Boom](#boom)
+    * [Good](#good)
+    * [Hoek](#hoek)
+    * [Joi](#joi)
+    * [Handlebars](#handlebars)
 * [Release History](#release-history)
 * [License](#license)
 
@@ -188,6 +193,34 @@ Provides a set of **utilities** for returning **HTTP errors**.
 </a>
 
 [Hapi.js](http://www.hapijs.com) process **monitoring**.
+
+### Hoek
+
+<a href="https://github.com/hapijs/hoek" title="hoek">
+    <img height="32" width="100" src="https://raw.github.com/hapijs/hoek/master/images/hoek.png">
+</a>
+
+Node **utilities** shared amongst the extended [Hapi.js](http://www.hapijs.com) universe.
+
+### Joi
+
+<a href="https://github.com/hapijs/joi" title="joi">
+    <img height="75" width="100" src="https://raw.github.com/hapijs/joi/master/images/joi.png">
+</a>
+
+Object **schema description** language and **validator** for JavaScript objects.
+
+### Handlebars
+
+<a href="http://handlebarsjs.com" title="handlebars">
+    <img height="61" width="100" src="http://blog.comperiosearch.com/wp-content/uploads/2012/09/handlebars_logo.png">
+</a>
+
+Provides the power necessary to let you build **semantic templates** effectively with no frustration.
+
+### Node Config Manager
+
+A [configuration manager](https://github.com/Valko54/node-config-manager) for NodeJS. It helps you to organize your project and the different **configurations** of your **environments**.
 
 ## Release History
 
