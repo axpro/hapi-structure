@@ -54,6 +54,9 @@ Feel free to give me your opinion and let me share integration ideas to grow the
     * [Lab](#lab)
     * [Code](#code)
 * [Server details](#server-details)
+* [Client details](#client-details)
+* [Gulp scripts](#gulp-scripts)
+* [Packaging](#packaging)
 * [TODO](#todo)
 * [Release History](#release-history)
 * [License](#license)
@@ -409,7 +412,30 @@ $ gulp or gulp:front-application
 
 We can see that in `development` mode, **bower components** are presents in the displayed **HTML**.
 
-We will see it's different when application is **packaged** in **production** mode.
+We will see that's different when application is **packaged** in **production** mode.
+
+All templates are combined to display final result.
+
+## Gulp scripts
+
+The **main file** is `gulpfile.js`. It includes all files from `gulp` folder and initialize **default** script.
+ 
+* `server.js` => scripts to **launch** server in `development continuous` mode
+* `watch.js` => script to watch **client** updates and launch associated tasks
+* `wiredep.js` => script to insert **bower components** dependencies in layout
+* `build.js` => scripts to inject **custom** dependencies in layout and to build application
+
+Only these scripts are interesting:
+
+* `gulp serve:front-application` or `gulp`(***default***) => script to launch **front** application
+* `gulp serve:api-application` => script to launch **API** application
+* `gulp build:front-application` => script to build **front** application
+* `gulp build:api-application` => script to build **API** application
+
+All others scripts can be launched **manually** but it's not necessary. 
+
+## Packaging
+
 
 ## TODO
 
