@@ -86,7 +86,7 @@ $ cd /path/to/workspace/hapi-structure
 $ gulp
 ```
 
-When you launch the project in **client/server** method, browser will be launched and views will be displayed at: `http://localhost:5000`
+When you launch the project in **client/server** method, browser will be launched **automatically** and views will be displayed at: `http://localhost:5000`
 
 If you update anything in your server (`api`, `configuration`, ...) or client (`html`, `css`, ...) code, changes will be **displayed** at the screen and your `API` will be **reloaded**.
 
@@ -98,7 +98,7 @@ $ cd /path/to/workspace/hapi-structure
 $ gulp serve:api-application
 ```
 
-When you launch the project in **server** method, browser will not be launched. If you want displayed `API` result in your browser, go to: `http://127.0.0.1:7080`
+When you launch the project in **server** method, browser will **not** be launched. If you want displayed `API` result in your browser, go to: `http://127.0.0.1:7080`
 
 If you update anything in your server (`api`, `configuration`, ...), `API` will be **reloaded** but change will **not be displayed** in your browser.
  
