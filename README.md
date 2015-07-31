@@ -427,15 +427,46 @@ The **main file** is `gulpfile.js`. It includes all files from `gulp` folder and
 
 Only these scripts are interesting:
 
-* `gulp serve:front-application` or `gulp`(***default***) => script to launch **front** application
-* `gulp serve:api-application` => script to launch **API** application
-* `gulp build:front-application` => script to build **front** application
-* `gulp build:api-application` => script to build **API** application
+* `gulp serve:front-application` or `gulp`(***default***) => script to launch **front** application. **Browser** and **server** will be refreshed **automatically**.
+* `gulp serve:api-application` => script to launch **API** application. If **client** data are presents, we can access to their **manually**.
+* `gulp build:front-application` => script to build **front** application. **Client** and **server** side will be included.
+* `gulp build:api-application` => script to build **API** application. Only **server** side will be included.
 
-All others scripts can be launched **manually** but it's not necessary. 
+All others scripts can be launched **manually** but it's not necessary.
 
 ## Packaging
 
+When `developments` are finished and you want to **deploy** in **production**, you must **package** your application to **optimize** the content.
+
+Launch one of `build` scripts and `dist` folder will be created with all the **minified files** for the type of the chosen application.
+
+To launch your production environment, follow these steps: 
+
+* Install `Node.js` production dependencies
+
+```javascript
+$ cd /path/to/workspace/hapi-structure/dist
+
+$ NODE_ENV='production' npm install
+```
+
+* Launch the server in **production** mode
+
+```javascript
+$ cd /path/to/workspace/hapi-structure/dist
+
+$ npm run prod
+```
+
+* Go in your browser at the address `127.0.0.1:7080` and you will be redirect to `127.0.0.1:7080/v1/hello/world` and see the new result
+
+```html
+<!doctype html><!--[if IE 8]> <html class="no-js lt-ie9" lang="en" > <![endif]--><!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]--><head><base href="/"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><title>Hapi.js Project Structure</title><meta name="author" content="NJL"><meta name="description" content="Hapi.js Project Structure and Implementation"><meta name="google-site-verification" content=""><meta name="Copyright" content="Nicolas Jessel"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="format-detection" content="telephone=no"><meta name="HandheldFriendly" content="true"><!--[if IE]>
+ <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+ <![endif]--><meta http-equiv="content-language" content="en"><link rel="shortcut icon" sizes="16x16" href="assets/images/favicon.ico"><link rel="apple-touch-icon" sizes="60x60" href="assets/images/apple-touch-icon.png"><link rel="apple-touch-icon" sizes="76x76" href="assets/images/apple-touch-icon/touch-icon-ipad.png"><link rel="apple-touch-icon" sizes="120x120" href="assets/images/apple-touch-icon/touch-icon-iphone-retina.png"><link rel="apple-touch-icon" sizes="152x152" href="assets/images/apple-touch-icon/touch-icon-ipad-retina.png"><link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon/touch-icon-iphone-plus-retina.png"><link rel="stylesheet" href="styles/vendor-546880b6b6.css"><link rel="stylesheet" href="styles/app-6f4377d9b0.css"><script src="scripts/modernizr-c1ff1650bb.js"></script></head><body><h1>Welcome Akanass on Hapi.js Project Structure!</h1><script src="scripts/vendor-107fbe9555.js"></script><script src="scripts/app-6f8ebee813.js"></script></body></html>
+```
+
+**HTML** content is minified and all **bower or custom components** are inserted to it.
 
 ## TODO
 
