@@ -288,6 +288,23 @@ Content-Type: application/json
 }
 ```
 
+* You can add **query parameter** to change user name
+
+```javascript
+GET /v1/hello/json?user=Akanass HTTP/1.1
+Host: 127.0.0.1:7080
+Content-Type: application/json
+
+{
+  "statusCode": 200,
+  "message": "Welcome Akanass on Hapi.js Project Structure!"
+}
+```
+
+This code uses `lib/hello` **plugin** with `json` **route** and **controller**.
+
+Message in the response is displayed by `lib/i18n` **plugin**.
+
 ## TODO
 
 * Write Tests with [Lab](https://github.com/hapijs/lab) and [Code](https://github.com/hapijs/code).
