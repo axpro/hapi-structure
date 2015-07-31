@@ -49,13 +49,13 @@ internals.registerPlugins = function (server, cfg, callback)
             // check if dirname must be passed in options
             var options = {};
 
-            if(_.contains(cfg.plugin.overrideDirnameForPlugins, plugin))
+            if(Hoek.contain(cfg.plugin.overrideDirnameForPlugins, plugin))
             {
                 options.dirname = __dirname;
             }
 
             // check if plugin must have route prefix
-            if(_.contains(cfg.plugin.pluginsWithoutPrefix, plugin))
+            if(Hoek.contain(cfg.plugin.pluginsWithoutPrefix, plugin))
             {
                 // add plugin to register array
                 registers.push({
