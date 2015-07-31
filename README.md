@@ -36,10 +36,13 @@ Feel free to give me your opinion and let me share integration ideas to grow the
 * [Getting started](#getting-started)
     * [Client/Server method](#clientserver-method)
     * [Server method](#server-method)
-* [Used Libraries](#used-libraries)
-    * [Client](#client)
-    * [Server](#server)
-    * [Test](#test)
+* [Client Libraries](#client-libraries)
+    * [Bower](#bower)
+    * [Bootstrap](#bootstrap)
+    * [Modernizr](#modernizr)
+* [Server Libraries](#server-libraries)
+    * [Hapi](#hapi)
+    * [gulp](#gulp)
 * [Release History](#release-history)
 * [License](#license)
 
@@ -126,11 +129,9 @@ If you update anything in your server (`api`, `configuration`, ...), `API` will 
  
 If client parts are in your project, you can displayed `HTML` contents in your browser but if changes are made, you must **reload manually** the page to display updates.
 
-## Used Libraries
+## Client Libraries
 
-### Client
-
-#### - Bower
+### Bower
 
 <a href="http://bower.io" title="bower.io">
     <img width="100" height="88" src="http://bower.io/img/bower-logo.png">
@@ -138,7 +139,7 @@ If client parts are in your project, you can displayed `HTML` contents in your b
 
 A **package manager** for the web.
 
-#### - Bootstrap
+### Bootstrap
 
 <a href="http://getbootstrap.com" title="bootstrap">
     <img width="100" height="46" src="http://bmdm.com/wp-content/uploads/bootstrap.png">
@@ -146,7 +147,7 @@ A **package manager** for the web.
 
 The most popular **HTML**, **CSS**, and **JS framework** for developing **responsive**, **mobile** first projects on the web.
 
-#### - Modernizr
+### Modernizr
 
 <a href="http://modernizr.com" title="modernizr">
     <img width="100" height="26" src="http://zurb.com/blog_uploads/0000/1410/feature-targeting-modernizr.jpg">
@@ -154,9 +155,9 @@ The most popular **HTML**, **CSS**, and **JS framework** for developing **respon
 
 **JavaScript** library that detects **HTML5** and **CSS3** features in the user’s browser.
 
-### Server
+### Server Libraries
 
-#### - Hapi
+### Hapi
 
 <a href="http://www.hapijs.com" title="hapi.js">
     <img src="https://raw.github.com/hapijs/hapi/master/images/hapi.png" width="100" height="70"/>
@@ -164,7 +165,7 @@ The most popular **HTML**, **CSS**, and **JS framework** for developing **respon
 
 A rich **framework** for building **applications** and **services**.
 
-#### - Gulp
+### Gulp
 
 <a href="http://www.gulpjs.com" title="gulp.js">
     <img height="70" width="31" src="https://raw.githubusercontent.com/gulpjs/artwork/master/gulp-2x.png">
