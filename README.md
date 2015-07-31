@@ -1,10 +1,14 @@
-<table border="0" cellspacing="0" cellpadding="0" bordercolor="none">
+<table border="0" cellspacing="0" cellpadding="0" style="border-spacing: 0;">
     <tr>
         <td width="120" align="center">
-            <img src="https://raw.github.com/hapijs/hapi/master/images/hapi.png" width="100" height="70"/>
+            <a href="http://www.hapijs.com" title="hapi.js">
+                <img src="https://raw.github.com/hapijs/hapi/master/images/hapi.png" width="100" height="70"/>
+            </a>
         </td>
         <td width="120" align="center">
-            <img height="70" width="31" src="https://raw.githubusercontent.com/gulpjs/artwork/master/gulp-2x.png">
+            <a href="http://www.gulpjs.com" title="gulp.js">
+                <img height="70" width="31" src="https://raw.githubusercontent.com/gulpjs/artwork/master/gulp-2x.png">
+            </a>
         </td>
     </tr>
 </table>
