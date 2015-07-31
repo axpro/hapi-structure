@@ -1,5 +1,13 @@
-<img src="https://raw.github.com/hapijs/hapi/master/images/hapi.png" width="100" height="70"/>
-<img height="70" width="31" src="https://raw.githubusercontent.com/gulpjs/artwork/master/gulp-2x.png" style="margin-left:10px">
+<table border="0">
+    <tr>
+        <td width="120" align="center">
+            <img src="https://raw.github.com/hapijs/hapi/master/images/hapi.png" width="100" height="70"/>
+        </td>
+        <td width="120" align="center">
+            <img height="70" width="31" src="https://raw.githubusercontent.com/gulpjs/artwork/master/gulp-2x.png">
+        </td>
+    </tr>
+</table>
 
 ## Hapi.js Project Structure and Implementation
 
