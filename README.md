@@ -39,6 +39,7 @@ Feel free to give me your opinion and let me share integration ideas to grow the
 * [Used Libraries](#used-libraries)
     * [Client](#client)
     * [Server](#server)
+    * [Test](#test)
 * [Release History](#release-history)
 * [License](#license)
 
@@ -152,6 +153,24 @@ The most popular **HTML**, **CSS**, and **JS framework** for developing **respon
 </a>
 
 **JavaScript** library that detects **HTML5** and **CSS3** features in the user’s browser.
+
+### Server
+
+#### - Hapi
+
+<a href="http://www.hapijs.com" title="hapi.js">
+    <img src="https://raw.github.com/hapijs/hapi/master/images/hapi.png" width="100" height="70"/>
+</a>
+
+A rich **framework** for building **applications** and **services**.
+
+#### - Gulp
+
+<a href="http://www.gulpjs.com" title="gulp.js">
+    <img height="70" width="31" src="https://raw.githubusercontent.com/gulpjs/artwork/master/gulp-2x.png">
+</a>
+
+**Automate** and **enhance** your workflow.
 
 ## Release History
 
