@@ -318,7 +318,7 @@ All clients data are in `client` folder :
     * `vendor.scss` => **SASS** file for all **bower components** of the front application. **Doesn't insert** something **manually** in this file. If CSS component is **missing**, use **bower override** instead of. 
     * `_*.scss` => **SASS** file for **specific** page of the front application. These files will be **automatically** inserted in `index.scss` during execution and packaging.
 * `views` folder contains **HTML** files for the front application
-    * `layout` folder contains **global layout** file for the front application (`layout.html`). The tag `{{{content}}}` will not be deleted 
+    * `layout` folder contains **global layout** file for the front application (`layout.html`). The tag `{{{content}}}` would not be deleted, it's the **dynamic insertion** of the content page. 
     * `partials` folder contains **generic layout** files for the front application like the menu, header and/or footer.
     * **specific** page must be created at the `root` of this folder
     
