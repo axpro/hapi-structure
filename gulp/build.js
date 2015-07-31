@@ -196,4 +196,5 @@ gulp.task('clean', function()
   internals.$.del.sync(['dist/', '.tmp/']);
 });
 
-gulp.task('build', ['clean', 'server', 'client', 'images', 'fonts']);
+gulp.task('build:front-application', ['clean', 'server', 'client', 'images', 'fonts']);
+gulp.task('build:api-application', ['clean', 'server']);
