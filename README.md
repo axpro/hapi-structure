@@ -10,6 +10,11 @@
                 <img height="70" width="31" src="https://raw.githubusercontent.com/gulpjs/artwork/master/gulp-2x.png">
             </a>
         </td>
+        <td width="120" align="center">
+            <a href="http://bower.io" title="bower.io">
+                <img width="100" height="88" src="http://bower.io/img/bower-logo.png">
+            </a>
+        </td>
     </tr>
 </table>
 
