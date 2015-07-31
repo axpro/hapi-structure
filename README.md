@@ -275,6 +275,19 @@ $ cd /path/to/workspace/hapi-structure
 $ gulp or gulp:api-application 
 ```
 
+* Call specific route in your **browser**, **cURL** or with **Postman**
+
+```javascript
+GET /v1/hello/json HTTP/1.1
+Host: 127.0.0.1:7080
+Content-Type: application/json
+
+{
+  "statusCode": 200,
+  "message": "Welcome NJL on Hapi.js Project Structure!"
+}
+```
+
 ## TODO
 
 * Write Tests with [Lab](https://github.com/hapijs/lab) and [Code](https://github.com/hapijs/code).
