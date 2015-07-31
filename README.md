@@ -15,6 +15,11 @@ Feel free to give me your opinion and let me share integration ideas to grow the
 * [Installation](#installation)
     * [Client/Server application](#clientserver-application)
     * [Server application](#server-application)
+* [Getting started](#getting-started)
+    * [Client/Server method](#clientserver-method)
+    * [Server method](#server-method)
+* [Release History](#release-history)
+* [License](#license)
 
 ## Installation
 
@@ -66,6 +71,38 @@ $ npm install
 ```
 
 Folder `node_modules` will be created.
+
+## Getting started
+
+After installation, you can launch the project in `continuous development` method. 
+
+This means that when you make a change in the ***server*** and / or ***client*** code, application and browser will be **automatically reloaded**.
+
+### Client/Server method
+ 
+```javascript
+$ cd /path/to/workspace/hapi-structure
+
+$ gulp
+```
+
+When you launch the project in **client/server** method, browser will be launched and views will be displayed at: `http://localhost:5000`
+
+If you update anything in your server (`api`, `configuration`, ...) or client (`html`, `css`, ...) code, changes will be **displayed** at the screen and your `API` will be **reloaded**.
+
+### Server method
+
+```javascript
+$ cd /path/to/workspace/hapi-structure
+
+$ gulp serve:api-application
+```
+
+When you launch the project in **server** method, browser will not be launched. If you want displayed `API` result in your browser, go to: `http://127.0.0.1:7080`
+
+If you update anything in your server (`api`, `configuration`, ...), `API` will be **reloaded** but change will **not be displayed** in your browser.
+ 
+If client parts are in your project, you can displayed `HTML` content in your browser but if changes are made, you must **reload manually** the page to display updates.
 
 ## Release History
 
