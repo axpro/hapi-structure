@@ -225,6 +225,8 @@ Object **schema description** language and **validator** for JavaScript objects.
 
 Provides the power necessary to let you build **semantic templates** effectively with no frustration.
 
+To show [Hapi.js](http://www.hapijs.com) integration follow this [link](http://hapijs.com/api#serverviewsoptions)
+
 ### Node Config Manager
 
 A [configuration manager](https://github.com/Valko54/node-config-manager) for NodeJS. It helps you to organize your project and the different **configurations** of your **environments**.
@@ -304,6 +306,110 @@ Content-Type: application/json
 This code uses `lib/hello` **plugin** with `json` **route** and **controller**.
 
 Message in the response is displayed by `lib/i18n` **plugin**.
+
+## Client details
+
+All clients data are in `client` folder :
+
+* `assets` folder contains **images** and **fonts** for the front application
+* `scripts` folder contains **custom scripts** for the front application
+* `styles` folder contains **stylesheets** for the front application
+    * `index.scss` => **SASS** file for **global layout** of the front application.
+    * `vendor.scss` => **SASS** file for all **bower components** of the front application. **Doesn't insert** something **manually** in this file. If CSS component is **missing**, use **bower override** instead of. 
+    * `_*.scss` => **SASS** file for **specific** page of the front application. These files will be **automatically** inserted in `index.scss` during execution and packaging.
+* `views` folder contains **HTML** files for the front application
+    * `layout` folder contains **global layout** file for the front application (`layout.html`). The tag `{{{content}}}` will not be deleted 
+    * `partials` folder contains **generic layout** files for the front application like the menu, header and/or footer.
+    * **specific** page must be created at the `root` of this folder
+    
+
+To display the **HTML** content of the `hello world` page, follow these steps:
+
+* Launch server
+
+```javascript
+$ cd /path/to/workspace/hapi-structure
+
+$ gulp or gulp:front-application 
+```
+
+* Go in your browser at the address `localhost:5000` and you will be redirect to `localhost:5000/v1/hello/world`
+
+```html
+<!doctype html>
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+    <base href="/">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,  initial-scale=1.0, user-scalable=no">
+    <!-- Legal information -->
+    <title>Hapi.js Project Structure</title>
+    <meta name="author" content="NJL">
+    <meta name="description" content="Hapi.js Project Structure and Implementation">
+    <meta name="google-site-verification" content="">
+    <meta name="Copyright" content="Nicolas Jessel">
+    <!-- Hiding Safari User Interface Components -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Changing the Status Bar Appearance -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!-- Disables automatic detection of possible phone numbers -->
+    <meta name="format-detection" content="telephone=no">
+    <!-- Content optimized for mobile -->
+    <meta name="HandheldFriendly" content="true">
+    <!-- Disable compatibility mode IE -->
+    <!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <![endif]-->
+    <!-- Language -->
+    <meta http-equiv="content-language" content="en">
+
+    <link rel="shortcut icon" sizes="16x16" href="assets/images/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/apple-touch-icon/touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/apple-touch-icon/touch-icon-iphone-retina.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/apple-touch-icon/touch-icon-ipad-retina.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon/touch-icon-iphone-plus-retina.png">
+
+    <!-- build:css({.tmp,client}) client/styles/vendor.css -->
+    <link rel="stylesheet" href="styles/vendor.css">
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+
+    <!-- build:css({.tmp,client}) client/styles/app.css -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="styles/index.css">
+    <!-- endinject -->
+    <!-- endbuild -->
+
+    <!-- build:js client/scripts/modernizr.js -->
+    <script src="bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+</head>
+<body>
+
+<h1>Welcome NJL on Hapi.js Project Structure!</h1>
+
+<!-- build:js client/scripts/vendor.js -->
+<!-- bower:js -->
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<!-- endbower -->
+<!-- endbuild -->
+
+<!-- build:js({.tmp,client}) client/scripts/app.js -->
+<!-- inject:js -->
+<script src="scripts/ready.js"></script>
+<!-- endinject -->
+<!-- endbuild -->
+</body>
+</html>
+```
+
+We can see that in `development` mode, **bower components** are presents in the displayed **HTML**.
+
+We will see it's different when application is **packaged** in **production** mode.
 
 ## TODO
 
