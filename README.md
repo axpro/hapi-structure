@@ -36,6 +36,9 @@ Feel free to give me your opinion and let me share integration ideas to grow the
 * [Getting started](#getting-started)
     * [Client/Server method](#clientserver-method)
     * [Server method](#server-method)
+* [Used Libraries](#used-libraries)
+    * [Client](#client)
+    * [Server](#server)
 * [Release History](#release-history)
 * [License](#license)
 
@@ -121,6 +124,34 @@ When you launch the project in **server** method, browser will **not** be launch
 If you update anything in your server (`api`, `configuration`, ...), `API` will be **reloaded** but change will **not be displayed** in your browser.
  
 If client parts are in your project, you can displayed `HTML` contents in your browser but if changes are made, you must **reload manually** the page to display updates.
+
+## Used Libraries
+
+### Client
+
+#### Bower
+
+<a href="http://bower.io" title="bower.io">
+    <img width="100" height="88" src="http://bower.io/img/bower-logo.png">
+</a>
+
+A **package manager** for the web.
+
+#### Bootstrap
+
+<a href="http://getbootstrap.com" title="bootstrap">
+    <img width="100" height="46" src="http://bmdm.com/wp-content/uploads/bootstrap.png">
+</a>
+
+The most popular **HTML**, **CSS**, and **JS framework** for developing **responsive**, **mobile** first projects on the web.
+
+#### Modernizr
+
+<a href="http://modernizr.com" title="modernizr">
+    <img width="100" height="26" src="http://zurb.com/blog_uploads/0000/1410/feature-targeting-modernizr.jpg">
+</a>
+
+**JavaScript** library that detects **HTML5** and **CSS3** features in the user’s browser.
 
 ## Release History
 
