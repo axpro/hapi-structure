@@ -1,4 +1,4 @@
-<table border="0" cellspacing="0" cellpadding="0">
+<table border="0" cellspacing="0" cellpadding="0" bordercolor="none">
     <tr>
         <td width="120" align="center">
             <img src="https://raw.github.com/hapijs/hapi/master/images/hapi.png" width="100" height="70"/>
