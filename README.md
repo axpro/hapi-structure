@@ -129,7 +129,7 @@ If client parts are in your project, you can displayed `HTML` contents in your b
 
 ### Client
 
-#### Bower
+#### - Bower
 
 <a href="http://bower.io" title="bower.io">
     <img width="100" height="88" src="http://bower.io/img/bower-logo.png">
@@ -137,7 +137,7 @@ If client parts are in your project, you can displayed `HTML` contents in your b
 
 A **package manager** for the web.
 
-#### Bootstrap
+#### - Bootstrap
 
 <a href="http://getbootstrap.com" title="bootstrap">
     <img width="100" height="46" src="http://bmdm.com/wp-content/uploads/bootstrap.png">
@@ -145,7 +145,7 @@ A **package manager** for the web.
 
 The most popular **HTML**, **CSS**, and **JS framework** for developing **responsive**, **mobile** first projects on the web.
 
-#### Modernizr
+#### - Modernizr
 
 <a href="http://modernizr.com" title="modernizr">
     <img width="100" height="26" src="http://zurb.com/blog_uploads/0000/1410/feature-targeting-modernizr.jpg">
