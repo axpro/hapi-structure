@@ -65,7 +65,7 @@ Feel free to give me your opinion and let me share integration ideas to grow the
 
 You must clone the project:
 
-```javascript
+```sh
 $ cd /path/to/workspace
 
 $ git clone git@github.com:njl07/hapi-structure.git
