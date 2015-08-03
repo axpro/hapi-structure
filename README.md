@@ -65,7 +65,7 @@ Feel free to give me your opinion and let me share integration ideas to grow the
 
 You must clone the project:
 
-```sh
+```bash
 $ cd /path/to/workspace
 
 $ git clone git@github.com:njl07/hapi-structure.git
@@ -92,7 +92,7 @@ When the structure is OK for you, you must install all dependencies.
 
 For this part, you must install `npm` and `bower` packages:
   
-```javascript
+```bash
 $ cd /path/to/workspace/hapi-structure
 
 $ npm install && bower install
@@ -104,7 +104,7 @@ Folders `node_modules` and `bower_components` will be created.
 
 For this part, you must only install `npm` packages:
   
-```javascript
+```bash
 $ cd /path/to/workspace/hapi-structure
 
 $ npm install
@@ -120,7 +120,7 @@ This means that when you make a change in the ***server*** and / or ***client***
 
 ### Client/Server method
  
-```javascript
+```bash
 $ cd /path/to/workspace/hapi-structure
 
 $ gulp
@@ -132,7 +132,7 @@ If you update anything in your server (`api`, `configuration`, ...) or client (`
 
 ### Server method
 
-```javascript
+```bash
 $ cd /path/to/workspace/hapi-structure
 
 $ gulp serve:api-application
@@ -274,7 +274,7 @@ To display the result of an **API** call, follow these steps:
 
 * Launch server
 
-```javascript
+```bash
 $ cd /path/to/workspace/hapi-structure
 
 $ gulp or gulp:api-application 
@@ -330,7 +330,7 @@ To display the **HTML** content of the `hello world` page, follow these steps:
 
 * Launch server
 
-```javascript
+```bash
 $ cd /path/to/workspace/hapi-structure
 
 $ gulp or gulp:front-application 
@@ -444,7 +444,7 @@ To launch your production environment, follow these steps:
 
 * Install `Node.js` production dependencies
 
-```javascript
+```bash
 $ cd /path/to/workspace/hapi-structure/dist
 
 $ NODE_ENV='production' npm install
@@ -452,7 +452,7 @@ $ NODE_ENV='production' npm install
 
 * Launch the server in **production** mode
 
-```javascript
+```bash
 $ cd /path/to/workspace/hapi-structure/dist
 
 $ npm run prod
