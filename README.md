@@ -478,6 +478,7 @@ $ npm run prod
 
 | Version    | Notes       |
 |:-----------|:------------|
+| 0.9.0      | Add helpers path for client views |
 | 0.8.0      | README |
 | 0.7.0      | Packaging |
 | 0.6.0      | Gulp scripts |

@@ -6,6 +6,7 @@
   "viewsPath": "client/views",
   "layoutPath": "client/views/layout",
   "partialsPath": "client/views/partials",
+  "helpersPath": "client/views/helpers",
   "faviconPath": "client/assets/images/favicon.ico",
   "defaultContext": {
     "title": "HEAD_TITLE",
