@@ -22,7 +22,7 @@
 
 This project describes the structure of an [Hapi.js](http://www.hapijs.com) server implementation.
 
-We will explain all phases of the project integration, configuration and libraries used, scripts for the continued development and packaging of the production application.
+We will explain all phases of the project integration, configuration and libraries used, scripts for the continuous development and packaging of the production application.
 
 When I have some interesting features to offer, I will include them in this project to involve you.
 
